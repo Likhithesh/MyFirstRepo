@@ -6,6 +6,5 @@
       <class name="tests.NewTest"/>
     </classes>
   </test> <!-- Test -->
-  
- <!-- <DummyTag></DummyTag> --> 
+   
 </suite> <!-- Suite -->
