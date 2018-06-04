@@ -15,7 +15,7 @@ public class NewTest {
 	  public void openMyBlog() {
 	 driver.get("https://www.google.co.in");
 //	 System.out.println("  --> \"Branch1-Alpha\" - WebPage opened.");
-	 System.out.println("  --> \"Ayyaayyoo\" - WebPage opened.");
+	 System.out.println("  --> \"MASTER\" - WebPage opened.");
 	  }
 	  
 	  @BeforeClass
