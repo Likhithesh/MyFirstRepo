@@ -14,8 +14,7 @@ public class NewTest {
 	  @Test
 	  public void openMyBlog() {
 	 driver.get("https://www.google.co.in");
-//	 System.out.println("  --> \"Branch1-Alpha\" - WebPage opened.");
-	 System.out.println("  --> \"MASTER\" - WebPage opened.");
+	 System.out.println("  --> WebPage opened.");
 	  }
 	  
 	  @BeforeClass
@@ -34,5 +33,7 @@ public class NewTest {
 	   System.out.println("  --> WebPage Closed.");
 	   
 	  }
+	  
+	  /////sadadadas
 
 }
