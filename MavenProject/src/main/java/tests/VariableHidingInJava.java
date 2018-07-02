@@ -6,10 +6,10 @@ class Parent{
     int z=30;
     
     void m1(){
-    	System.out.println(" Non Static m1() methos in Parent");
+    	System.out.println(" Non Static m1() method in Parent");
     }
     static void m2(){
-    	System.out.println(" Static m2() methos in Parent");
+    	System.out.println(" Static m2() method in Parent");
     }
 }
 class Child extends Parent{
@@ -18,12 +18,12 @@ class Child extends Parent{
     
     @Override
     void m1(){
-    	System.out.println(" Non Static m1() methos in Child");  	
+    	System.out.println(" Non Static m1() method in Child");  	
     	System.out.println(z);
     }
     
     static void m2(){
-    	System.out.println(" Static m2() methos in Child");
+    	System.out.println(" Static m2() method in Child");
 //    	System.out.println(z);  // We cannot invoke non static variable inside static method.
     	
     }
@@ -42,13 +42,13 @@ public class VariableHidingInJava {
         System.out.println(c1.y);
         System.out.println(c.z+" "+p.z);
         
-        c.m2(); // Static m2() methos in Child
-        p.m2(); // Static m2() methos in Parent
+        c.m2(); // Static m2() method in Child
+        p.m2(); // Static m2() method in Parent
         
         c.m1(); // Non Static m1() methos in Child
         p.m1(); // Non Static m1() methos in Child
         
-//        c.m2(); // Static m2() methos in Parent
+//        c.m2(); // Static m2() methos in Child
 //        p.m2(); // Static m2() methos in Parent
         
     }
