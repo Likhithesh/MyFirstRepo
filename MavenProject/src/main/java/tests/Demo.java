@@ -4,7 +4,6 @@ public class Demo {
 
 	public static void main(String[] args)
 	{
-		              
 		int[] a[],b = {20};
 		
 		a = new int[3][3];

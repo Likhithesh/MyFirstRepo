@@ -5,6 +5,9 @@ import java.util.List;
 
 public class Panagram {
 	
+	// If a string contains all the characters from A to Z in it , then we will call that type of string as "PANGRAM"
+	// EX : String s="Hi I am panagram but cdefghijklmnopqrstuvwxyz";
+	
 	public static boolean checkPangram (String str)
     {
 		// Create a hash table to mark the 
@@ -12,7 +15,7 @@ public class Panagram {
 	    // By default all the elements of 
 	    // mark would be false.
 	    boolean[] mark = new boolean[26];
-	
+	    
 	    // For indexing in mark[]
 	    int index = 0;
 	
