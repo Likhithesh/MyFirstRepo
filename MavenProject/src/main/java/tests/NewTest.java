@@ -30,7 +30,7 @@ public class NewTest {
 	  @AfterClass
 	  public void afterClass() {
 	   driver.quit();
-	   System.out.println("  --> WebPage Closed.");
+	   System.out.println("  --> WebPage Closed...");
 	   
 	  }
 
