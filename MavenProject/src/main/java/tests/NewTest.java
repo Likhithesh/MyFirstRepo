@@ -14,6 +14,7 @@ public class NewTest {
 	  @Test
 	  public void openMyBlog() {
 	 driver.get("https://www.google.co.in");
+	 System.out.println("Edited to test ...");
 	 System.out.println("  --> WebPage opened.");
 	  }
 	  
